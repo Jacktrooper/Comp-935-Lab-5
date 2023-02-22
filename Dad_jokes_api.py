@@ -25,7 +25,7 @@ def search_for_dad_jokes(search_term):
     }
 
     query_str_params = {
-        'trem' : search_term
+        'term' : search_term
     }
 
     #Send the GET request to the Dad jokes api
